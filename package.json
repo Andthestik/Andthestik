@@ -1,0 +1,14 @@
+{
+  "name": "contractmate",
+  "version": "0.1.0",
+  "description": "Minimal API prototype for ContractMate microSaaS",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "node app/index.js & sleep 1 && kill $!"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
