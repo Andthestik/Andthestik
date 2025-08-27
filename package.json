@@ -1,0 +1,14 @@
+{
+  "name": "andthestik",
+  "version": "1.0.0",
+  "description": "Simple Node server for competitor tracking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
