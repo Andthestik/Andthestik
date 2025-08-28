@@ -1,16 +1,22 @@
-## Hi there 👋
+# MinuteMate
 
-<!--
-**Andthestik/Andthestik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A minimal microSaaS example that summarizes meeting transcripts into action items using the OpenAI API.
 
-Here are some ideas to get you started:
+## Running Locally
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1. Install backend dependencies and start the server:
+   ```bash
+   cd backend
+   npm install
+   npm start
+   ```
+   Set `OPENAI_API_KEY` in your environment before starting.
+
+2. Open the frontend:
+   ```bash
+   cd ../frontend
+   npx serve .
+   ```
+   Then visit `http://localhost:3000` and ensure the backend is running at `http://localhost:3001`.
+
+This repository is an MVP prototype created by the assistant.
