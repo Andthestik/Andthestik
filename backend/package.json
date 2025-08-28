@@ -1,0 +1,15 @@
+{
+  "name": "minutemate-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node -e \"console.log('no tests')\""
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
